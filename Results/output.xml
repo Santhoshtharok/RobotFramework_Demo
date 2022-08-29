@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220816 09:22:36.218" rpa="false" schemaversion="3">
+<suite id="s1" name="CommonFunctionality" source="C:\Users\SANTHOSH\PycharmProjects\RobotFramework\Flipkart\Resources\CommonFunctionality.robot">
+<test id="s1-t1" name="Flipkart product search" line="10">
+<kw name="Start Test Case">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url.${env}}</arg>
+<arg>${browser}[0]</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220816 09:22:38.959" level="FAIL">Resolving variable '${url.Prod}' failed: AttributeError: Prod</msg>
+<status status="FAIL" starttime="20220816 09:22:38.959" endtime="20220816 09:22:38.959"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20220816 09:22:38.967" endtime="20220816 09:22:38.967"/>
+</kw>
+<status status="FAIL" starttime="20220816 09:22:38.959" endtime="20220816 09:22:38.967"/>
+</kw>
+<kw name="Finish Test Case">
+<status status="NOT RUN" starttime="20220816 09:22:38.969" endtime="20220816 09:22:38.969"/>
+</kw>
+<status status="FAIL" starttime="20220816 09:22:38.959" endtime="20220816 09:22:38.969">Resolving variable '${url.Prod}' failed: AttributeError: Prod</status>
+</test>
+<status status="FAIL" starttime="20220816 09:22:36.234" endtime="20220816 09:22:38.969"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="CommonFunctionality">CommonFunctionality</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
