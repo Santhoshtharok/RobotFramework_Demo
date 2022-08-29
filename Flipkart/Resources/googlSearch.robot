@@ -12,3 +12,5 @@ ${search}       name:q
 google_Search
     Open Browser    ${url}      ${browser}
     Maximize Browser window
+Feature1
+    log feature1
